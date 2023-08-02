@@ -1,0 +1,2 @@
+Su nombre, apellido y edad son: luisa reyes, 17
+Su numero de telefono es: 3208213150.
