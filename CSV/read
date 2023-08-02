@@ -1,0 +1,18 @@
+from pais import *
+import csv
+listaPaises=[]
+with open('C:\reyes\TercerTrimestre_Reyes\CSV\pais.csv') as csvDataFile:
+
+    csvReader=csv.reader(csvDataFile)    
+    for row in csvReader:
+        ob=pais(row[1],row[3],row[4],row[7])
+        listaPaises.append(ob)
+       
+for paises in listaPaises:
+    #print(apr)
+    print('El pais es:',paises.getNombre())
+    print('last name:',paises.getPoblacion())
+    print('email:', paises.getSuperficie())
+    print('id:',paises.getAltura())
+    
+
