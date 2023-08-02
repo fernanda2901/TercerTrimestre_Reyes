@@ -18,4 +18,4 @@ class pais:
         return self.__superficie
     
     def getAltura(self):
-        return self.__altura
+        return self.__altura 
