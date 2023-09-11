@@ -1,0 +1,116 @@
+
+.fondo {
+    background-color:#36761C;
+    width: 100%; /* Ancho del 100% para que abarque todo el contenedor */
+    height: 995px; /* Altura de 200 píxeles (ajusta según sea necesario) */
+}
+
+.barra{
+    position:absolute;
+    top: 30px;
+    left: 50px;
+    width: 400px;
+}
+
+.cuadro_2 {
+    width: 900px; /* Ancho en píxeles */
+    height: 35px; /* Altura en píxeles */
+    background-color: white; /* Color de fondo */
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px; /* Margen exterior de 20 píxeles */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); /* Sombra */
+    position: absolute;
+    margin-top: 100px;
+    left: 75%;
+}   
+
+.cuadro_3 {
+    width: 900px; /* Ancho en píxeles */
+    height: 140px; /* Altura en píxeles */
+    background-color: white; /* Color de fondo */
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px; /* Margen exterior de 20 píxeles */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); /* Sombra */
+    position: absolute;
+    margin-top: 170px;
+    left: 75%;
+
+}  .cuadro_4 {
+    width: 900px; /* Ancho en píxeles */
+    height: 140px; /* Altura en píxeles */
+    background-color: white; /* Color de fondo */
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px; /* Margen exterior de 20 píxeles */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); /* Sombra */
+    position: absolute;
+    margin-top: 345px;
+    left: 75%;
+}  
+
+.cuadro_5 {
+    width: 900px; /* Ancho en píxeles */
+    height: 140px; /* Altura en píxeles */
+    background-color: white; /* Color de fondo */
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px; /* Margen exterior de 20 píxeles */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); /* Sombra */
+    position: absolute;
+    margin-top: 520px;
+    left: 75%;
+}  
+
+.titulo2{
+position: relative;
+margin-top:6px;
+left: 35px;
+}
+
+.titulo3{
+position:relative;
+margin-top:-40px;
+left:400px;
+}
+
+.titulo_3{
+    position: relative;
+    left:700px ;
+}
+
+.titulo_4{
+    position: relative;
+    left:700px ;
+}
+
+.titulo_5{
+    position: relative;
+    left:700px ;
+}
+
+.link1{
+    position: relative;
+    left: 680px;
+    position: relative;
+    top:20px;
+    font-size: 12px; 
+}
+
+.link2{
+    position: relative;
+    left: 680px;
+    position: relative;
+    top:20px;
+    font-size: 12px; 
+}
+.link3{
+    position: relative;
+    left: 680px;
+    position: relative;
+    top:20px;
+    font-size: 12px; 
+
+}
+

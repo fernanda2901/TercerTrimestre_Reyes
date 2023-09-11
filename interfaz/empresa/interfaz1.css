@@ -1,0 +1,87 @@
+.fondo_titulo{
+    background-color: #36761C ;
+    height: 50px;
+    width:100%;
+    
+}
+.titulo{
+    text-align: center;
+    transform: scale(1.6);
+    position: absolute;
+    top: 0%;
+    left: 580px;
+}
+.cuadro {
+    width: 550px;
+    height: 280px;
+    background-color: #36761C;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    display:grid;
+    justify-content: center; 
+    align-items: center;
+}
+.d-flex {
+    position: absolute;
+    left: 50px;
+    transform: scale(1.5);
+    position: absolute; /* Posicionamiento absoluto dentro del cuadro */
+    bottom: 350px; /* Ajusta la posición vertical (puedes cambiar el valor) */
+    left: 5%; /* Centra horizontalmente dentro del cuadro */
+    transform: scale(1.2);  /* Corrige la centración horizontal */
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    top:120px;
+}
+
+.form-control-me-2{
+    width: 300px;
+    height: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.texto{
+    color: #fff;
+    left: 10%;
+
+}
+
+.pie{
+    background-color: #36761C ;
+    height: 100%;
+}
+
+.link1 {
+    display: inline-block;
+    /*margin-right:100px; /* Mueve los enlaces hacia la derecha */
+    margin-top: 10px; /* Mueve los enlaces hacia abajo */
+    color: blue; /* Cambia el color de texto de los enlaces */
+    font-weight: bold;
+    font-size: 12px; 
+}
+
+.fondo_pie {
+    background-color: #36761C;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+.fondo_pie1{
+    text-align: center;
+    transform: scale(1.6);
+    
+}

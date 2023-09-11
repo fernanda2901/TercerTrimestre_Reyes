@@ -1,0 +1,72 @@
+.fondo_titulo{
+    background-color: #36761C ;
+    border: 2px solid black;
+    height: 500%;  
+}
+.titulo{
+    text-align: center;
+    transform: scale(1.1);
+}
+.cuadro {
+    width: 95%;
+    height: 500px;
+    background-color: #36761C;
+    border: 2px solid black;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto; 
+}
+.cuadro_2 {
+    display: flex;
+    justify-content: center;
+    width: 70%; /* Ancho en píxeles */
+    height: 470px; /* Altura en píxeles */
+    background-color: white; /* Color de fondo */
+    border: 2px solid black; /* Borde de 2 píxeles sólido */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 20px; /* Margen exterior de 20 píxeles */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5); /* Sombra */
+    position:absolute;
+    top:150px;
+    /*left:340px;*/
+    right: 100px;
+} 
+.titulo_2{
+    text-align: center;
+    color:black;
+    position: absolute;
+    top:0px;
+    left: 270px;
+}
+.linea-horizontal {
+    border-bottom: 2px solid #000; /* 2 píxeles de ancho, sólido y color negro (#000) */
+    width: 100%; /* Ancho del 100% para que abarque todo el contenedor */
+    margin: 10px 0; /* Margen superior e inferior de 10 píxeles (ajusta según sea necesario) */
+    position: absolute;
+    top:39px;
+}
+.formulario{
+    background-color: #ffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 550px;
+    top: 260px;
+}
+
+.boton{
+    position: absolute;
+    transform: scale(1.3);
+    background-color: #36761C;
+    border: 2px solid black;
+    position:absolute;
+    top: 290px; 
+    right: 40px;
+
+
+}
