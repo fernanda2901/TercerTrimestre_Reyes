@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.circule-button {
+    width: 100px; /* Define el ancho del círculo */
+    height: 100px; /* Define la altura del círculo */
+    background-color: #007bff; /* Cambia el color de fondo del círculo */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.circule-button img {
+    width: 80%; /* Ajusta el tamaño de la imagen dentro del círculo */
+    border-radius: 50%; /* Hace que la imagen también sea un círculo */
+}
